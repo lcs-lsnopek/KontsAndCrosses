@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B2CDA0192820614F00EC58F6 /* KontsAndCrossesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CDA0182820614F00EC58F6 /* KontsAndCrossesApp.swift */; };
-		B2CDA01B2820614F00EC58F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CDA01A2820614F00EC58F6 /* ContentView.swift */; };
 		B2CDA01D2820615400EC58F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CDA01C2820615400EC58F6 /* Assets.xcassets */; };
 		B2CDA0202820615400EC58F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CDA01F2820615400EC58F6 /* Preview Assets.xcassets */; };
+		B2CDA029282061E500EC58F6 /* GameBordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CDA028282061E500EC58F6 /* GameBordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2CDA0152820614F00EC58F6 /* KontsAndCrosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KontsAndCrosses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CDA0182820614F00EC58F6 /* KontsAndCrossesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontsAndCrossesApp.swift; sourceTree = "<group>"; };
-		B2CDA01A2820614F00EC58F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2CDA01C2820615400EC58F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2CDA01F2820615400EC58F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2CDA028282061E500EC58F6 /* GameBordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				B2CDA0182820614F00EC58F6 /* KontsAndCrossesApp.swift */,
-				B2CDA01A2820614F00EC58F6 /* ContentView.swift */,
+				B2CDA027282061A900EC58F6 /* Views */,
+				B2CDA0262820619100EC58F6 /* Model */,
 				B2CDA01C2820615400EC58F6 /* Assets.xcassets */,
 				B2CDA01E2820615400EC58F6 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				B2CDA01F2820615400EC58F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2CDA0262820619100EC58F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2CDA027282061A900EC58F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2CDA028282061E500EC58F6 /* GameBordView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2CDA01B2820614F00EC58F6 /* ContentView.swift in Sources */,
 				B2CDA0192820614F00EC58F6 /* KontsAndCrossesApp.swift in Sources */,
+				B2CDA029282061E500EC58F6 /* GameBordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
