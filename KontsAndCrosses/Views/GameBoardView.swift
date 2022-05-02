@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct GameBordView: View {
+struct GameBoardView: View {
     var body: some View {
-        Text("This is the game bord")
+        Text("This is the game board")
     }
 }
 
-struct GameBordView_Previews: PreviewProvider {
+struct GameBoardView_Previews: PreviewProvider {
     static var previews: some View {
-        GameBordView()
+        GameBoardView()
     }
 }
