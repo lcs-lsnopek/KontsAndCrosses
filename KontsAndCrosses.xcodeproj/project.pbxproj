@@ -83,7 +83,6 @@
 		B2CDA027282061A900EC58F6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B2CDA028282061E500EC58F6 /* GameBoardView.swift */,
 				B2CDA02A2820626F00EC58F6 /* Helpers */,
 			);
 			path = Views;
@@ -93,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				B2CDA02B2820628D00EC58F6 /* TileView.swift */,
+				B2CDA028282061E500EC58F6 /* GameBoardView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
